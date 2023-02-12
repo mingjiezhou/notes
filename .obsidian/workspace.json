@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "aff5078bcc75f00e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a74075f7ff58be8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e08413cd23169973",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad72cf88bc3087da",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8ac479e18773d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8a6ad1eb617fbb1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4df9dbc5acfe9a8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50bb49a65caf0c7a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 254.5
+  },
+  "right": {
+    "id": "a9f63fb246d57a1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0baab1c89719fae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5318cc8df0ca8910",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3685b1a2cfca5368",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7ffdb54f42844f18",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5380a5826d7b350d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "canvas:Create new canvas": false,
+      "templates:插入模板": false
+    }
+  },
+  "active": "f8a6ad1eb617fbb1",
+  "lastOpenFiles": [
+    "2023 博客/前端代码规范指南.md",
+    "2022 博客/测试.md",
+    "2023 博客/苹果发布会荧光环形进度条【Vanilla + canvas】.md",
+    "2023 知识库1/前端代码规范指南.md",
+    "截屏2023-02-09 13.11.40.png",
+    "2023 知识库1/200 行代码写个贪吃蛇【vue3 + canvas】.md",
+    "2023 知识库1/博客/assets/images/截屏2023-02-09 13.19.16.png",
+    "2023 知识库1/博客/assets/images/截屏2023-02-09 13.12.07.png",
+    "2023 知识库1/assets/images/截屏2023-02-03 14.37.22.png",
+    "2023 知识库1/苹果发布会荧光环形进度条【Vanilla + canvas】.md"
+  ]
+}

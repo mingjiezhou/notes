@@ -1,0 +1,9 @@
+{
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./assets/images",
+  "promptDelete": false
+}

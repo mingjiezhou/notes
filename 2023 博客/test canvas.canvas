@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"932cfd7f55425d16","x":-701,"y":-377,"width":250,"height":60,"type":"text","text":"圣诞节发链接寥寥可数家乐福"},
+		{"id":"c9461627b4b363ed","x":-332,"y":-493,"width":400,"height":400,"type":"file","file":"博客/前端代码规范指南.md"},
+		{"id":"4c1742ec60b09579","x":-701,"y":-480,"width":250,"height":60,"type":"text","text":"我们回击哦忘记哦"},
+		{"id":"bfeaad77dec778f2","x":-701,"y":-223,"width":250,"height":60,"type":"text","text":"撒地方"},
+		{"id":"343fc73ee5f9dd51","x":-332,"y":136,"width":742,"height":290,"type":"file","file":"assets/images/b776e3c8-a38d-11ed-8cc3-d2de02fdc57d-v1_f4_t2_GX5MRma2 1.mp4"},
+		{"id":"2b73c3810e076176","x":-701,"y":14,"width":250,"height":71,"type":"text","text":""},
+		{"id":"4ea021a17fb4ae0f","x":-1203,"y":-480,"width":400,"height":400,"type":"file","file":"博客/前端代码规范指南.md"},
+		{"id":"7c5bc8f2ecd2683b","x":-701,"y":281,"width":252,"height":83,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"6e79e19c7980d583","fromNode":"932cfd7f55425d16","fromSide":"bottom","toNode":"bfeaad77dec778f2","toSide":"top"},
+		{"id":"8927956fcb0fbc12","fromNode":"2b73c3810e076176","fromSide":"left","toNode":"bfeaad77dec778f2","toSide":"bottom"},
+		{"id":"43e59f8b913a1597","fromNode":"7c5bc8f2ecd2683b","fromSide":"left","toNode":"2b73c3810e076176","toSide":"bottom"}
+	]
+}
