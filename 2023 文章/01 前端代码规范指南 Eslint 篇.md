@@ -2,15 +2,15 @@
 
 JavaScript 是动态弱类型语言，没有预编译程序，比较容易出错，所以在项目编码阶段，我们经常用 `ESLint` 来做代码静态检查，它通过可配置的代码规范对项目代码进行校验，并在检测到异常时给出警告或错误信息。
 
-本文主要目的有两点：
+本文主要解决两个问题：
 
 一、介绍几种常用的 `ESLint` 配置方法；
 二、解答如下几点疑问：
 
-1.  `eslint` 和 `standard 、prettier` 三者的区别？
-2.  eslint vscode 插件和 项目中配置 eslint.js 的区别？
-3.  不同技术栈的 eslint 配置区别？
-4.  为什么配置 eslint 需要装这么多包？（`babel-eslint、eslint-config-prettier、eslint-plugin-prettier、eslint-plugin-vue`，...）
+1.  `ESLint` 和 `standard 、Prettier` 三者的区别？
+2.  `ESLint vscode` 插件和 项目中配置 eslint.js 的区别？
+3.  不同技术栈的 ESLint 配置区别？
+4.  为什么配置 ESLint 需要装这么多包？它们分别的含义和用法是什么？（`babel-eslint、eslint-config-prettier...`)
 
 ## 主流技术栈配置流程
 
@@ -213,9 +213,15 @@ extends: ['plugin:vue/recommended'],
 1. 不符合 `ESLint` 规则的代码加上一些**下划线**之类的语法提示；
 2. 配置自动保存时候直接修复 fix；
 
+## 总结
+
+本文介绍了几种主流的技术栈下 ESLint 的配置方式，然后对涉及到的 npm 包进行了讲解，有助于我们加深对 代码 Lint 机制的理解；
+
+另外也对 vscode 插件和 npm 包之间的关系进行了分析，知道了`ESLint Vscode` 插件本身并没有下载 eslint.js 代码和默认配置文件，而是优先从项目中、系统中查询，没有找到的话就不会进行校验。
+
 ## 资料来源
 
-[eslint 官方文档](https://eslint.bootcss.com/docs/user-guide/getting-started)
-[eslint-plugin-vue 文档](https://eslint.vuejs.org/)
-[npm](https://www.npmjs.com/)
-[prettier 文档](https://prettier.io/docs/en/plugins.html)
+1. [eslint 官方文档](https://eslint.bootcss.com/docs/user-guide/getting-started)
+2. [eslint-plugin-vue 文档](https://eslint.vuejs.org/)
+3. [npm](https://www.npmjs.com/)
+4. [prettier 文档](https://prettier.io/docs/en/plugins.html)
