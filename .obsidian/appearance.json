@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "GitHub Theme"
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 14,
+  "translucency": false,
+  "baseFontSizeAction": false
 }

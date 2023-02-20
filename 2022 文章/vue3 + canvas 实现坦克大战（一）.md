@@ -206,7 +206,7 @@ let TankConfig = function (cfg) {
 
 首先需要定义子弹的配置信息以及构造函数；
 
-```
+``` javaScript
 let MissileConfig = function (cfg) {
   this.x = cfg.x
   this.y = cfg.y
