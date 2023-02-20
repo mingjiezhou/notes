@@ -1,3 +1,5 @@
+![](assets/Pasted%20image%2020230220172411.png)
+
 ## 前言
 
 JavaScript 是动态弱类型语言，没有预编译程序，比较容易出错，所以在项目编码阶段，我们经常用 `ESLint` 来做代码静态检查，它通过可配置的代码规范对项目代码进行校验，并在检测到异常时给出警告或错误信息。
@@ -14,7 +16,7 @@ JavaScript 是动态弱类型语言，没有预编译程序，比较容易出错
 
 ## 主流技术栈配置流程
 
-### webpack 项目配置 eslint 的全流程
+### webpack 项目配置 ESLint 的全流程
 
 1. package.jon 配置如下包 (版本相互匹配就行)
 
@@ -71,7 +73,8 @@ plugins: [
 	new ESLintPlugin()
 ]
 ```
-### vue-cli 项目配置 eslint 的流程
+
+### vue-cli 项目配置 ESLint 的流程
 
 `vue-cli` 这种脚手架搭建的项目和纯 `webpack` 搭建流程的区别，主要是 vue-cli 提供了 `@vue/cli-plugin-eslint` 插件, 插件可以修改 webpack 的内部配置，也可以向 vue-cli-service 注入命令，不需要自己再一个个安装所有依赖的包，相当于把 `ESLint` 的环境安装过程尽量简化了。
 
@@ -79,7 +82,7 @@ plugins: [
 
 总体上，vue-cli 项目里面配置 `ESLint` 使用  `@vue/cli-plugin-eslint` 会更简单。
 
-### react 和 vue3 新项目配置 eslint 的流程
+### react 和 vue3 新项目配置 ESLint 的流程
 
 1. `npm install eslint`
 2. `eslint --init`
